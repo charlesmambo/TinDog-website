@@ -1,0 +1,246 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-family:'Montserrat', sans-serif;
+}
+nav{
+    padding: 3% 11%;
+    background-color: #E74865;
+    
+}
+#brand{
+    font-size: 1.6rem;
+    position: relative;
+    right: 50px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+#brand:hover{
+    color: #ffd;
+}
+.nav-item{
+    padding: 5px;
+}
+#link-1{
+    color: rgb(238, 236, 236);
+    font-size: 16px;
+}
+#link-2{
+    color: rgb(238, 236, 236);
+    font-size: 16px;
+}
+#link-3{
+    color: rgb(238, 236, 236);
+    font-size: 16px;
+}
+.nav-link{
+    color: rgb(238, 236, 236);
+    font-size: 16px;
+
+}
+.nav-link:hover{
+    color: #ffd;  
+}
+
+/* Header Section */
+.header-section{
+    padding: 0 14%;
+    padding-bottom: 7%;
+    background-color: #E74865;
+}
+.header-container{
+   max-width: 400px;
+   min-width: 250px;
+   margin:  auto;
+   
+}
+.heading{
+    font-family:'Montserrat', sans-serif;
+    font-size:  2.7rem;
+    font-weight: 800;
+    line-height: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+ .iphone-image-container{
+    width: 300px;
+    margin:  auto;
+    
+} 
+.iphone-image{
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 30px;
+    transform: rotate(25deg);
+    position: absolute;
+}
+.header-btn{
+    margin: 10px;
+}
+
+/* Features Section */
+.features{
+    padding: 8% 14%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.features-container{
+    width: 300px;
+    padding: 2% 7%;
+    margin: auto;
+}
+.three-icons{
+    margin-bottom: 20px;
+    color: #EB8072;
+
+}
+.features-heading{
+        font-size: 1.3rem;
+        font-weight: 600;
+}
+.features-text{
+    font-size: 16px;
+    color: #928F8F;
+}
+
+/* Testimonials Section */
+.testimonial{
+    padding: 7% 14%;
+    background-color: #EB8072;
+    color: #fff;
+    text-align: center;
+}
+.testimonial-heading{
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.6em;
+    padding: 0 2px;
+}
+.testimonial-images{
+    width: 8%;
+    border-radius: 100%;
+    margin-top: 25px;
+}
+.testimonial-text{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    display: inline;
+    position: relative;
+    top: 13px;
+    left: 8px;
+}
+.carousel-control-prev{
+    width: 3%;
+    top: 25px;
+}
+.carousel-control-next{
+    width: 3%; 
+    top: 25px; 
+}
+
+/* Images Section */
+.image-container{
+    padding: 3% 10%;
+    background-color: #EB8072;
+    text-align: center;
+}
+.logo-images-container{
+   display: inline;
+   
+}
+.logo-images{
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+/* Pricing section */
+.pricing{
+    padding: 7% 14%;
+    text-align: center;
+    align-items: center;
+}
+.price-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.price-text{
+    font-size: 16px;
+    color: #928F8F;
+    padding-bottom: 20px;
+}
+.card{
+    margin: 13px;
+}
+.card-title{
+    font-size: 1.5rem;
+}
+.card-body{
+    padding: 8% 7%;
+}
+.card-subtitle{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.card-text{
+    font-size: 15px;
+    color: #928F8F;
+}
+
+/* Description Section */
+.description{
+    padding: 7% 14%;
+    background-color: #E74865;
+    text-align: center;
+    color: #fff;
+}
+.descript-heading{
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: 0 7%;
+    padding-bottom: 3%;
+}
+
+/* Footer Section */
+footer{
+    padding: 2% 14%;
+    text-align: center;
+}
+  li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 12px;
+  }
+  .footer-text{
+    font-size: 15px;
+    color: #928F8F;
+  }
+  @media screen and (max-width: 986px) {
+    .iphone-image{
+        width: 55%;
+        transform: none;
+        position: relative;
+        top: 25px;
+        left: 50px;
+        padding-bottom: 8%;
+    }
+  }
+  @media screen and (max-width: 502px) {
+    .btn-container{
+        width: 200px;
+        margin: auto;
+    }
+    .headings{
+        font-size: 1.7em;
+    }
+    .btn{
+        font-size: 1em;
+    }
+  }
